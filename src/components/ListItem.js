@@ -19,7 +19,7 @@ export default function ListItem({photo, title, subTitle, isFree, price}) {
           <Text
             style={{
               color: '#333',
-              fontFamily: 'Roboto-Medium',
+              // fontFamily: 'Roboto-Medium',
               fontSize: 14,
             }}>
             {subTitle}
@@ -28,7 +28,7 @@ export default function ListItem({photo, title, subTitle, isFree, price}) {
             numberOfLines={1}
             style={{
               color: '#333',
-              fontFamily: 'Roboto-Medium',
+              // fontFamily: 'Roboto-Medium',
               fontSize: 14,
               textTransform: 'uppercase',
             }}>
@@ -46,7 +46,7 @@ export default function ListItem({photo, title, subTitle, isFree, price}) {
         <Text style={{
           color: '#fff',
           textAlign: 'center',
-          fontFamily: 'Roboto-Medium',
+          // fontFamily: 'Roboto-Medium',
           fontSize: 14,
         }}>
           {isFree == 'Yes' && 'Play'}

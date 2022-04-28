@@ -48,7 +48,7 @@ const OnboardingScreen = ({navigation}) => {
             fontSize: 18,
             textAlign: 'center',
             fontWeight: 'bold',
-            fontFamily: 'Roboto-MediumItalic',
+            // fontFamily: 'Roboto-MediumItalic',
           }}>
           Let's Begin
         </Text>

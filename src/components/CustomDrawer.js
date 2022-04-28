@@ -31,7 +31,7 @@ const CustomDrawer = props => {
             style={{
               color: '#fff',
               fontSize: 18,
-              fontFamily: 'Roboto-Medium',
+              // fontFamily: 'Roboto-Medium',
               marginBottom: 5,
             }}>
             John Doe
@@ -40,7 +40,7 @@ const CustomDrawer = props => {
             <Text
               style={{
                 color: '#fff',
-                fontFamily: 'Roboto-Regular',
+                // fontFamily: 'Roboto-Regular',
                 marginRight: 5,
               }}>
               280 Coins
@@ -48,10 +48,12 @@ const CustomDrawer = props => {
             <FontAwesome5 name="coins" size={14} color="#fff" />
           </View>
         </ImageBackground>
+
         <View style={{flex: 1, backgroundColor: '#fff', paddingTop: 10}}>
           <DrawerItemList {...props} />
         </View>
       </DrawerContentScrollView>
+
       <View style={{padding: 20, borderTopWidth: 1, borderTopColor: '#ccc'}}>
         <TouchableOpacity onPress={() => {}} style={{paddingVertical: 15}}>
           <View style={{flexDirection: 'row', alignItems: 'center'}}>
@@ -59,7 +61,7 @@ const CustomDrawer = props => {
             <Text
               style={{
                 fontSize: 15,
-                fontFamily: 'Roboto-Medium',
+                // fontFamily: 'Roboto-Medium',
                 marginLeft: 5,
               }}>
               Tell a Friend
@@ -72,7 +74,7 @@ const CustomDrawer = props => {
             <Text
               style={{
                 fontSize: 15,
-                fontFamily: 'Roboto-Medium',
+                // fontFamily: 'Roboto-Medium',
                 marginLeft: 5,
               }}>
               Sign Out
